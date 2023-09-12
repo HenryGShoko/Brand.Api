@@ -7,7 +7,6 @@ namespace Brand.Api.Data
     {
         public AppDbContext(DbContextOptions options) : base(options) { }
 
-        //public DbSet<Brand> Brands { get; set; }
         public DbSet<Brand.Api.Models.Domain.Brand> Brands { get; set; }
 
     }

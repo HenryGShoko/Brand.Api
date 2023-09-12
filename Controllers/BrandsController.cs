@@ -1,8 +1,6 @@
 ﻿using Brand.Api.Data;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Linq;
-
 
 namespace Brand.Api.Controllers
 {
@@ -18,21 +16,22 @@ namespace Brand.Api.Controllers
         }
 
         [HttpGet]
-        public IActionResult GetBrands(string sortOrder, bool? isPublished)
+        public IActionResult GetBrands([FromQuery] string sort = "name")
         {
             var brands = _context.Brands.AsQueryable();
 
-            if (isPublished.HasValue)
-            {
-                brands = brands.Where(b => b.IsPublished == isPublished.Value);
-            }
-
-            switch (sortOrder)
+            switch (sort.ToLower())
             {
                 case "name_desc":
                     brands = brands.OrderByDescending(b => b.Name);
                     break;
-                default:
+                case "published":
+                    brands = brands.OrderBy(b => b.PublishedDate);
+                    break;
+                case "published_desc":
+                    brands = brands.OrderByDescending(b => b.PublishedDate);
+                    break;
+                default: // This covers the default "name" case as well.
                     brands = brands.OrderBy(b => b.Name);
                     break;
             }
@@ -40,5 +39,4 @@ namespace Brand.Api.Controllers
             return Ok(brands.ToList());
         }
     }
-
 }

@@ -1,0 +1,77 @@
+[
+  {
+    "name": "Visa",
+    "published": "2022/08/12",
+    "imgURL": "assets/BrandsImages/visa.jpg"
+  },
+  {
+    "name": "TymeBank",
+    "published": "2022/08/12",
+    "imgURL": "assets/BrandsImages/TymeBank.jpg"
+  },
+  {
+    "name": "Distell",
+    "published": "2022/08/12",
+    "imgURL": "assets/BrandsImages/Distell.jpg"
+  },
+  {
+    "name": "Spotify",
+    "published": "2022/08/12",
+    "imgURL": "assets/BrandsImages/Spotify.jpg"
+  },
+  {
+    "name": "Microsoft",
+    "published": "2022/08/12",
+    "imgURL": "assets/BrandsImages/Microsoft.jpg"
+  },
+  {
+    "name": "Nike",
+    "published": "2022/08/12",
+    "imgURL": "assets/BrandsImages/Nike.jpg"
+  },
+  {
+    "name": "Wesgro",
+    "published": "2022/08/12",
+    "imgURL": "assets/BrandsImages/Wesgro.jpg"
+  },
+  {
+    "name": "Multichoice",
+    "published": "2022/08/12",
+    "imgURL": "assets/BrandsImages/Multichoice.jpg"
+  },
+  {
+    "name": "PicknPay",
+    "published": "2022/08/12",
+    "imgURL": "assets/BrandsImages/PicknPay.jpg"
+  },
+  {
+    "name": "Santam",
+    "published": "2022/08/12",
+    "imgURL": "assets/BrandsImages/Santam.jpg"
+  },
+  {
+    "name": "Sanlam",
+    "published": "2022/08/12",
+    "imgURL": "assets/BrandsImages/Sanlam.jpg"
+  },
+  {
+    "name": "TFG",
+    "published": "2022/08/12",
+    "imgURL": "assets/BrandsImages/TFG.jpg"
+  },
+  {
+    "name": "Bbc",
+    "published": "2022/08/12",
+    "imgURL": "assets/BrandsImages/Bbc.jpg"
+  },
+  {
+    "name": "Liquid",
+    "published": "2022/08/12",
+    "imgURL": "assets/BrandsImages/Liquid.jpg"
+  },
+  {
+    "name": "Engen",
+    "published": "2022/08/12",
+    "imgURL": "assets/BrandsImages/Engen.jpg"
+  }
+]
